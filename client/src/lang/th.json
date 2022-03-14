@@ -1,0 +1,357 @@
+{
+	"page": {
+		"error404": {
+			"title": "404 Not Found",
+			"content": {
+				"heading": "อืมม",
+				"explaination": "เหมือนว่าคุณจะหลงทางอยู่ในหลุมดำอยู่ ให้เราช่วยพาคุณออก แล้วกลับบ้านกันดีกว่า",
+				"home_button": "บ้าน - หน้าหลัก"
+			}
+		},
+		"error500": {
+			"title": "500 Internal Server Error",
+			"content": {
+				"heading_1": "อุ้ยย!",
+				"heading_2": "เกิดข้อผิดพลาดขึ้น :(",
+				"explaination": "เราขอโทษ มีบางอย่างผิดพลาดในฝั่งของเรา. โปรดลองอีกครั้งในภายหลัง."
+			}
+		},
+		"home": {
+			"title": "หน้าหลัก",
+			"content": {
+				"top": {
+					"heading": "ร.อ.ส.เวล.",
+					"explaination": "แอพส่งอาหารสำหรับนักศึกษามหาลัย",
+					"sub_hero": "เพื่อนคุณเมื่อยามหิว",
+					"order_now": "สั่งเลย"
+				},
+				"language_change": {
+					"check": "ขณะนี้กำลังใช้ภาษา ไทย"
+				},
+				"objective": {
+					"title": "จุดมุ่งหมาย",
+					"details": {
+						"heading": "แอพสั่งอาหารเพื่อชาวมช.",
+						"content": "สนับสนุนร้านค้าในระแวกมช. ประหยัดเงินในแต่ละรายการสั่ง พร้อมสร้างโอกาศหารายได้ติดตัวในเวลาเดียวกัน"
+					}
+				},
+				"expand_scope": {
+					"details": {
+						"content": "ขยายพื้นที่การให้บริการในอนาคต และหวังว่าจะสามารถขยายระยะการให้บริการไปต่างประเทศ",
+						"heading": "ขยายพื้นที่การให้บริการ"
+					}
+				}
+			}
+		},
+		"phone-verify": {
+			"toast": {
+				"request": {
+					"success": "ส่งคำขอ ยืนยันเบอร์โทรศัพท์ เรียบร้อย"
+				},
+				"verify": {
+					"success": "ยืนยันด้วยเบอร์โทรศัพท์สำเร็จ"
+				},
+				"invalid_otp_code": "รูปแบบรหัส OTP ไม่ถูกต้อง"
+			},
+			"content": {
+				"request": {
+					"send_otp": "ส่งคำขอเลข OTP",
+					"already_have_a_code": "มีโค๊ด OTP อยู่แล้ว?"
+				},
+				"verify": {
+					"title": "ยืนยันโค๊ด OTP ",
+					"enter_label": "กรอก OTP ที่คุณได้รับ",
+					"verify_button": "ยืนยัน",
+					"resend_otp": "ส่ง OTP อีกครั้ง"
+				},
+				"verified": {
+					"title": "คุณได้ยืนยันด้วยเบอร์โทรศัพท์แล้ว",
+					"go_to_dashboard": "ไปที่ ส่วนผู้ใช้"
+				}
+			},
+			"title": "ยืนยันเบอร์โทรศัพท์"
+		},
+		"store_manager": {
+			"create_store": {
+				"content": {
+					"title": "เพิ่มร้านค้าใหม่",
+					"get_location": "รับค่าตำแหน่งอัตโนมัติ",
+					"add_a_new_store": "ยืนยันการเพิ่มร้านค้า",
+					"opening_hours": "เวลาเปิดให้บริการ"
+				},
+				"title": "เพิ่มร้านค้าใหม่",
+				"toast": {
+					"create_store_success": "สร้างร้านค้าใหม่สำเร็จ",
+					"create_store_failed": "การสร้างร้านค้าผิดพลาด",
+					"update_time_success": "ปรับเปลี่ยนเวลาร้านค้าสำเร็จ"
+				}
+			},
+			"index": {
+				"content": {
+					"create_store": "เพิ่มร้านค้า",
+					"edit_store": "แก้ไขร้านค้า"
+				},
+				"title": "ตัวจัดการร้านค้า"
+			},
+			"edit_store": {
+				"content": {
+					"create_store": "สร้างร้านค้า",
+					"no_store": "คุณยังไม่มีร้านค้าที่สามารถจัดการได้"
+				},
+				"store": {
+					"title": "ตัวแก้ไขหน้าร้าน",
+					"content": {
+						"banner": {
+							"warning": "คำเตือน",
+							"not_your_store": "คุณไม่สามารถแก้ไขร้านค้าของคนอื่นได้",
+							"create_store": "สร้างร้านค้าใหม่"
+						},
+						"edit_item": "แก่ไข",
+						"add_new_item": "เพิ่มสินค้า"
+					},
+					"toast": {
+						"update_on_leave": {
+							"success": "เปลี่ยนสถานะร้านปิด สำเร็จ"
+						},
+						"pls_input_all_fields": "โปรดกรอกข้อมูลให้ครบถ้วน",
+						"item_added": "การสร้างสินค้าใหม่สำเร็จ",
+						"item_not_added": "การสร้างสินค้าใหม่ล้มเหลว"
+					},
+					"item": {
+						"content": {
+							"save": "บันทึก",
+							"price": "ราคา",
+							"item_info": "ข้อมูลสินค้า",
+							"name": "ชื่อสินค้า",
+							"description": "รายละเอียดสินค้า"
+						},
+						"edit": {
+							"content": {
+								"create_item": "สร้างสินค้า",
+								"item_info": "ไม่มีสินค้าชิ้นนี้อยู่ในร้าน"
+							},
+							"toast": {
+								"item_on_show_updated": "เปลี่ยนสถานะการโชว์สินค้าสำเร็จ",
+								"item_on_show_not_updated": "เปลี่ยนสถานะการโชว์สินค้าสำเร็จ"
+							},
+							"title": "แก้ไขข้อมูลสินค้า"
+						},
+						"title": "สร้างสินค้า"
+					}
+				}
+			}
+		},
+		"basket": {
+			"title": "ตะกร้าสินค้า"
+		},
+		"dashboard": {
+			"title": "ส่วนผู้ใช้"
+		},
+		"auth": {
+			"login": {
+				"title": "เข้าสู่ระบบ",
+				"content": {
+					"title": "เข้าสู่ระบบ",
+					"button": "เข้าสู่ระบบ",
+					"input": {
+						"email": "อีเมล (Email)",
+						"password": "รหัสผ่าน"
+					},
+					"to_register": "ยังไม่มีบัญชี"
+				},
+				"toast": {
+					"success": "เข้าสู่ระบบสำเร็จ"
+				}
+			},
+			"signup": {
+				"content": {
+					"title": "สมัครสมาชิก",
+					"to_login": "มีบัญชีอยู่แล้ว",
+					"by_signing_up": "เมื่อคุณสมัคร แสดงว่าคุณยินยอมตาม",
+					"terms_of_service": "ข้อกำหนด",
+					"and": "และ",
+					"privacy_policy": "นโยบายข้อมูล",
+					"create_account": "สร้างบัญชีใหม่",
+					"input": {
+						"email": "อีเมล (Email)",
+						"password": "รหัสผ่าน",
+						"confirm_password": "ยืนยันรหัสผ่าน",
+						"fullname": "ชื่อจริง"
+					}
+				},
+				"title": "สมัครสมาชิก",
+				"toast": {
+					"register_success": "สมัครสมาชิกสำเร็จ",
+					"register_failed": "สมัครสมาชิกล้มเหลว",
+					"pass_not_match": "รหัสผ่านที่กรอกไม่ตรงกัน",
+					"block_cmu_email": "การสมัครด้วยเมลมหาลัยจะต้องเข้าใจผ่านระบบ CMU OAuth"
+				}
+			}
+		},
+		"email-verify": {
+			"index": {
+				"content": {
+					"resend_btn": "ส่งคำขอยืนยันอีเมลอีกครั้ง",
+					"how_to": "เปิดดูบัญชีอีเมลของคุณ และตรวจสอบกล่องขาเข้าและ กล่องขยะ (Junk/Spam). เปิดลิ้งค์ที่แนบกับเมลเพื่อยืนยันเมลของท่าน"
+				},
+				"title": "ยืนยันอีเมล"
+			},
+			"code_page": {
+				"title": "ยืนยันอีเมล (Email)",
+				"content": {
+					"back_to_dashboard": "หลับไปส่วนของผู้ใช้",
+					"success_txt": "ยืนยันอีเมลสำเร็จ",
+					"incorrect_code": "โค๊ดยืนยันไม่ถูกต้อง"
+				}
+			}
+		},
+		"store": {
+			"browse": {
+				"title": "ดูร้านค้า",
+				"content": {
+					"on_leave": "ร้านหยุด",
+					"open": "เปิด"
+				},
+				"toast": {
+					"added_to_basket": "สินค้าได้ถูกเพิ่มลงตะกร้าแล้ว"
+				}
+			}
+		},
+		"order": {
+			"order_list": {
+				"title": "การสั่งที่กำลังดำเนินการ"
+			},
+			"order_history": {
+				"title": "ประวัติการสั่งสินค้า"
+			},
+			"order_details": {
+				"title": "ข้อมูลการสั่งสินค้า",
+				"content": {
+					"title": "รายการสินค้า",
+					"error": {
+						"order_not_found": "ไปพบรายการคำสั่งซื้อนี้",
+						"to_order_list": "กลับไปยังรายการคำสั่งซื้อ"
+					},
+					"nav": {
+						"item_list": "รายการสินค้า",
+						"call": "โทรหาผู้จัดส่ง",
+						"map": "แผนที่",
+						"cancel": "ยกเลิกการสั่งซื้อ",
+						"order_info": "รายละเอียด"
+					},
+					"order_info": {
+						"heading": "รายการข้อมูล",
+						"create_time": "สร้างเมื่อ",
+						"customer_lat_long": "ตำแหน่งลูกค้า",
+						"tip_amount": "Tip",
+						"total_price": "ยอดรวม",
+						"end_time": "เสร็จสิ้นเมื่อ",
+						"note": "โน๊ต"
+					},
+					"order_status": "สถานะคำสั่งซื้อ"
+				},
+				"toast": {
+					"cancel_order_failed": "การยกเลิกคำสั่งซื้อผิดพลาด",
+					"cancel_order_success": "ยกเลิกคำสั่งซื้อสำเร็จ"
+				}
+			}
+		},
+		"deliverer": {
+			"order": {
+				"list": {
+					"title": "จัดการรายการคำสั่งซื้อ | ผู้จัดส่ง"
+				},
+				"details": {
+					"title": "จัดการการสั่งซื้อ | ผู้จัดส่ง",
+					"content": {
+						"order_info": {
+							"store_lat_long": "พิกัดร้านค้า",
+							"order_status": "สถานะคำสั่งซื้อ",
+							"store_location": "ตำแหน่งร้านค้า"
+						},
+						"nav": {
+							"call": "โทรหาลูกค้า",
+							"item_list": "รายการสินค้า",
+							"order_info": "รายละเอียด",
+							"change_status": "เปลี่ยสถานะการสั่งซื้อ"
+						}
+					},
+					"toast": {
+						"change_status_success": "เปลี่ยนสถานะ สำเร็จ",
+						"change_status_failed": "การเปลี่ยสถานะ ล้มเหลว"
+					}
+				}
+			},
+			"bulletin": {
+				"title": "กระดานหางาน"
+			}
+		}
+	},
+	"nav": {
+		"text": {
+			"dashboard": "ส่วนผู้ใช้",
+			"home": "หน้าหลัก",
+			"store_manager": "จัดการร้านค้า",
+			"on_going_orders": "การสั่งซื้อปัจจุบัน",
+			"order_history": "การสั่งซื้อทั้งหมด",
+			"kyc": "ระบบยืนยันตน (KYC)",
+			"deliverer_dashboard": "หน้าต่างสำหรับผู้จัดส่ง",
+			"login": "เข้าสู่ระบบ",
+			"signup": "สมัครสมาชิก",
+			"logout": "ออกจากระบบ",
+			"deliverer_active_order": "รายการการจัดส่งที่รับมา"
+		}
+	},
+	"subpage": {
+		"store_browser": {
+			"content": {
+				"no_location": "คุณต้องเปิดใช้ การระบุตำแหน่ง เพื่อค้าหน้าร้านใกล้ๆคุณ",
+				"try_again": "ลองอีกครั้ง",
+				"geo_not_working": "ยังไม่ทำงานหรอ? ลองตั้งค่าสิทธิ์ในการเข้าถึงตำแหน่งของคุณ"
+			}
+		},
+		"basket": {
+			"content": {
+				"checkout": "ดำเนินการสั่งสินค้า",
+				"total": "รวม",
+				"shopping_cart": "ตะกร้าสินค้า"
+			},
+			"toast": {
+				"basket_empty": "ตะกร้าสินค้าว่างอยู่",
+				"order_failed": "การสั่งซื้อสินค้าล้มเหลว",
+				"order_success": "สั่งสินค้าสำเร็จ"
+			}
+		}
+	},
+	"component": {
+		"verify_check_card": {
+			"title": "การยืนยันตน",
+			"with_email": "การยืนยันอีเมล (Email)",
+			"with_phone": "การยืนยันเบอร์โทรศัพท์",
+			"to_phone_verify": "ไปที่หน้ายืนยันเบอร์โทรศัพท์"
+		},
+		"basket": {
+			"item": {
+				"quantity": "จำนวน",
+				"remove": "นำออก",
+				"thb": "บาท"
+			}
+		},
+		"alert": {
+			"store_collision": {
+				"can_not_add_to_basket": "ไม่สามารถเพิ่มสินค้าเข้าตะกร้าได้",
+				"reason": "สินค้านี้อยู่คนละร้านกัน. คุณต้องการล้างตะกร้าสินค้าก่อนเพิ่มหรือไม่?",
+				"button": {
+					"delete": "ล้างตะกร้า",
+					"no": "ไม่ล้าง"
+				}
+			}
+		}
+	},
+	"general": {
+		"notice": {
+			"login_first": "ต้องเข้าสู่ระบบก่อนทำรายการต่อ",
+			"not_a_deliverer": "คุณไม่สามารถใช้งานส่วนของผู้ส่งสินค้าได้"
+		}
+	}
+}

@@ -1,0 +1,358 @@
+{
+	"page": {
+		"error404": {
+			"title": "404 Not Found",
+			"content": {
+				"heading": "Hmm.",
+				"explaination": "It seems that you're lost in a perpetual black hole. Let us help guide you out and get you back home.",
+				"home_button": "HOME"
+			}
+		},
+		"error500": {
+			"title": "500 Internal Server Error",
+			"content": {
+				"heading_1": "Woops!",
+				"heading_2": "Something went wrong :(",
+				"explaination": "We're sorry, but something went wrong on our end. Please try again later."
+			}
+		},
+		"home": {
+			"title": "Home",
+			"content": {
+				"top": {
+					"explaination": "FOOD DELIVERY SERVICE FOR UNI STUDENTS",
+					"heading": "R.O.S.W.E.L",
+					"sub_hero": "Your Friend in Need",
+					"order_now": "Order Now"
+				},
+				"language_change": {
+					"check": "Current Language: English"
+				},
+				"objective": {
+					"title": "Our Objective",
+					"details": {
+						"heading": "An app with the local CMU community in mind",
+						"content": "Support local businesses and enjoy ordering food at a cheaper price while earning some money on the side"
+					}
+				},
+				"expand_scope": {
+					"details": {
+						"content": "We plan to increase our scope of operation in the future with hopes of operating overseas",
+						"heading": "Expanding Operation Scope"
+					}
+				}
+			}
+		},
+		"phone-verify": {
+			"toast": {
+				"request": {
+					"success": "Phone verification request success"
+				},
+				"verify": {
+					"success": "Phone Verification Successful"
+				},
+				"invalid_otp_code": "Invalid OTP code"
+			},
+			"content": {
+				"request": {
+					"title": "Phone Verification",
+					"send_otp": "Send OTP",
+					"already_have_a_code": "Already have a code?"
+				},
+				"verify": {
+					"title": "Verify OTP code",
+					"enter_label": "Enter the OTP you received",
+					"verify_button": "Verify",
+					"resend_otp": "Resend OTP"
+				},
+				"verified": {
+					"title": "Your phone number has already been verified",
+					"go_to_dashboard": "Go to Dashboard"
+				}
+			},
+			"title": "Verify Phone Number"
+		},
+		"store_manager": {
+			"create_store": {
+				"content": {
+					"title": "Create a new store",
+					"get_location": "Get Location Automatically",
+					"add_a_new_store": "Add a new store",
+					"opening_hours": "Opening Hours"
+				},
+				"title": "Store Creator",
+				"toast": {
+					"create_store_success": "Succesfully create a store",
+					"create_store_failed": "Failed to create a new store",
+					"update_time_success": "Store time has been updated"
+				}
+			},
+			"index": {
+				"content": {
+					"create_store": "Create Store",
+					"edit_store": "Edit Store"
+				},
+				"title": "Store Manager"
+			},
+			"edit_store": {
+				"content": {
+					"no_store": "You have 0 store to manage",
+					"create_store": "Create Store"
+				},
+				"store": {
+					"title": "Store Editor",
+					"content": {
+						"banner": {
+							"warning": "Warning",
+							"not_your_store": "You cannot manage store owned by someone else",
+							"create_store": "Create Store"
+						},
+						"edit_item": "EDIT",
+						"add_new_item": "Add new item"
+					},
+					"toast": {
+						"update_on_leave": {
+							"success": "On Leave Updated"
+						},
+						"pls_input_all_fields": "Please input all fields",
+						"item_added": "Item creation successful",
+						"item_not_added": "Item creation failed"
+					},
+					"item": {
+						"content": {
+							"save": "Save",
+							"price": "Price",
+							"item_info": "Item Info",
+							"name": "Item name",
+							"description": "Item description"
+						},
+						"edit": {
+							"content": {
+								"create_item": "Create item",
+								"item_info": "This item doesn't exist"
+							},
+							"toast": {
+								"item_on_show_updated": "Item on show status has been updated",
+								"item_on_show_not_updated": "Failed to change item on show status"
+							},
+							"title": "Edit Store Item"
+						},
+						"title": "Create Item"
+					}
+				}
+			}
+		},
+		"basket": {
+			"title": "Basket"
+		},
+		"dashboard": {
+			"title": "Dashboard"
+		},
+		"auth": {
+			"login": {
+				"title": "Login",
+				"content": {
+					"title": "Login",
+					"button": "Login",
+					"input": {
+						"email": "Email",
+						"password": "Password"
+					},
+					"to_register": "Don't have an account?"
+				},
+				"toast": {
+					"success": "Login Success"
+				}
+			},
+			"signup": {
+				"content": {
+					"title": "Sign Up",
+					"to_login": "Already own an account?",
+					"by_signing_up": "By signing up, you agree to the",
+					"terms_of_service": "Terms of Service",
+					"and": "and",
+					"privacy_policy": "Privacy Policy",
+					"create_account": "Create Account",
+					"input": {
+						"email": "Email",
+						"password": "Password",
+						"confirm_password": "Confirm Password",
+						"fullname": "Full name"
+					}
+				},
+				"title": "Sign Up",
+				"toast": {
+					"register_success": "Account Registration Successful",
+					"register_failed": "Account Registration Failed",
+					"pass_not_match": "Password do not match",
+					"block_cmu_email": "For CMU Email, Please Login using the CMU OAuth"
+				}
+			}
+		},
+		"email-verify": {
+			"index": {
+				"content": {
+					"resend_btn": "Resend Email verification code",
+					"how_to": "Login to your Email account and check your inbox and spam/junk inbox. Open the link attached to the Email to verify your Email"
+				},
+				"title": "Verify Email"
+			},
+			"code_page": {
+				"title": "Verify Email",
+				"content": {
+					"back_to_dashboard": "Back to Dashboard",
+					"success_txt": "Verification success",
+					"incorrect_code": "Incorrect Code"
+				}
+			}
+		},
+		"store": {
+			"browse": {
+				"title": "Browse Store",
+				"content": {
+					"on_leave": "Closed (On Leave)",
+					"open": "Open"
+				},
+				"toast": {
+					"added_to_basket": "An Item has been added to the basket"
+				}
+			}
+		},
+		"order": {
+			"order_list": {
+				"title": "On-Going Order List"
+			},
+			"order_history": {
+				"title": "Order History"
+			},
+			"order_details": {
+				"title": "Order Details",
+				"content": {
+					"title": "Item List",
+					"error": {
+						"order_not_found": "Order Not Found",
+						"to_order_list": "Back to order list"
+					},
+					"nav": {
+						"item_list": "Item List",
+						"call": "Call Deliverer",
+						"map": "Map",
+						"cancel": "Cancel",
+						"order_info": "Order Info"
+					},
+					"order_info": {
+						"heading": "Information",
+						"create_time": "Create Time",
+						"customer_lat_long": "Customer Location",
+						"tip_amount": "Tip",
+						"total_price": "Total Price",
+						"end_time": "End Time",
+						"note": "Note"
+					},
+					"order_status": "Order Status"
+				},
+				"toast": {
+					"cancel_order_failed": "Failed to cancel this order",
+					"cancel_order_success": "Successfully cancelled this order"
+				}
+			}
+		},
+		"deliverer": {
+			"order": {
+				"list": {
+					"title": "Order List Manager | Deliverer"
+				},
+				"details": {
+					"title": "Order Manager | Deliverer",
+					"content": {
+						"order_info": {
+							"store_lat_long": "Store Location Coords",
+							"order_status": "Order Status",
+							"store_location": "Store Location"
+						},
+						"nav": {
+							"call": "Call Customer",
+							"item_list": "Item List",
+							"order_info": "Order Info",
+							"change_status": "Change Order Status"
+						}
+					},
+					"toast": {
+						"change_status_success": "Succcessfully changed the status",
+						"change_status_failed": "Change status failed"
+					}
+				}
+			},
+			"bulletin": {
+				"title": "Bulletin"
+			}
+		}
+	},
+	"nav": {
+		"text": {
+			"dashboard": "Dashboard",
+			"home": "Home",
+			"store_manager": "Store Manager",
+			"on_going_orders": "On-going Orders",
+			"order_history": "Order History",
+			"kyc": "KYC",
+			"deliverer_dashboard": "Deliverer Dashboard",
+			"login": "Login",
+			"signup": "Sign Up",
+			"logout": "Logout",
+			"deliverer_active_order": "Deliverer Active Order"
+		}
+	},
+	"subpage": {
+		"store_browser": {
+			"content": {
+				"no_location": "You have to enable GeoLocation in order to get stores around you",
+				"try_again": "Try Again",
+				"geo_not_working": "Not working? Try changing your browser permission."
+			}
+		},
+		"basket": {
+			"content": {
+				"checkout": "Create Order",
+				"total": "Total",
+				"shopping_cart": "Shopping cart"
+			},
+			"toast": {
+				"basket_empty": "The basket is empty",
+				"order_failed": "Failed to place an order",
+				"order_success": "Successfully placed an order"
+			}
+		}
+	},
+	"component": {
+		"verify_check_card": {
+			"title": "Verification Required",
+			"with_email": "Email Verification",
+			"with_phone": "Phone Verification",
+			"to_phone_verify": "To phone verification page"
+		},
+		"basket": {
+			"item": {
+				"quantity": "Qty",
+				"remove": "Remove",
+				"thb": "THB"
+			}
+		},
+		"alert": {
+			"store_collision": {
+				"can_not_add_to_basket": "Cannot add item to basket",
+				"reason": "This item is from another store. Would you like to clear your basket before adding this item?",
+				"button": {
+					"delete": "Delete",
+					"no": "No"
+				}
+			}
+		}
+	},
+	"general": {
+		"notice": {
+			"login_first": "Please login before proceed",
+			"not_a_deliverer": "You are not a deliverer"
+		}
+	}
+}
