@@ -9,15 +9,22 @@
 
 <h3 align="center">R.O.S.W.E.L</h3>
 
-  <p align="center">
+   <p align="center">
     R.O.S.W.E.L stands for Remote Ordering System Without Excessive Labor
   It is a platform for ordering goods our current main target customer are 
   customers around Chaing Mai University (CMU) 
   where the deliverer could only be students in CMU.
-    <br />
-    <a href="https://www.roswel-th.com"><strong>Try our site »</strong></a>
-    <br />
-    <br />
+   <br />
+   <br />
+   <a href="https://www.roswel-th.com"><strong>Try our site »</strong></a>
+   <br />
+   <br />
+   <a href="https://github.com/CharlZKP/R.O.S.W.E.L">
+     <img src="https://www.roswel-th.com/dist/image/home/Home_Image.png" alt="ROSWEL Image by DSTK">
+   </a>
+
+   <br />
+   <br />
     <a href="https://github.com/CharlZKP/R.O.S.W.E.L/issues">Report Bug</a>
     ·
     <a href="https://github.com/CharlZKP/R.O.S.W.E.L/issues">Request Feature</a>
@@ -60,6 +67,7 @@
   customers around Chaing Mai University (CMU) 
   where the deliverer could only be students in CMU, after passing a KYC proccess
   and approved by the Admin
+ 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -115,7 +123,7 @@ Example:
    sendGrid {
     sender_email: 'no-reply@roswel-th.com', //Needed
     apiKey: 'YOUR-SENDGRID-API-KEY' //Needed
-  },
+   },
    ```
 and check the CORS and Cookies config so that it matches with
 your setup
@@ -143,8 +151,8 @@ of your Backend server
    ```js
    export const server_base_url = "http://localhost:2000";
     ```
-Be sure to check the Backend CORS and cookies config so that
-it matches with your Frontend URL
+   Be sure to check the Backend CORS and cookies config so that
+   it matches with your Frontend URL
 
 9. and run the **dev** server using
    ```sh
@@ -179,7 +187,8 @@ Do not forget to give the project a star! Thanks again!
 ## License
 
 The Front-end is opensource under [3-Clause BSD License](https://opensource.org/licenses/BSD-3-Clause "The 3-Clause BSD License")
-Currently, the Back-end, the logo, and some image are "All rights reserved".
+Currently, the Back-end, the logo, and some image (Like the one shown on this page) are "All rights reserved".
+This project uses multiple libraries and templates and those will be under their own license.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
